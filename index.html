@@ -95,7 +95,7 @@
                 <h3 class="text-primary">Carro Aki</h3>
                 <p class="text-white">
                     Uma galeria de carros onde auto-shops podem criar uma conta para anunciar
-                    os veículos disponíveis em sua loja.
+                    os veículos disponíveis em sua loja. Foi feito como PHP puro, utilizando a versão 5.3 devido as limitações do servidor, o padrão de desenvolvimento foi o MVC, o banco escolhido foi o SQLite.
                 </p>
                 <hr class="border border-primary">
                 <h3 class="text-primary">Técnologias Usadas:</h3>
@@ -122,8 +122,8 @@
             <div class="text ms-5">
                 <h3 class="text-primary">IFSP News</h3>
                 <p class="text-white">
-                    Um scraper de notícias do site IFSP Caraguatatuba. Ele faz a raspagem dos dados no site, formata em um html para email,
-                    e então envia para a lista de emails configurada.
+                    Um script Python que automatiza a extração de notícias do site do IFSP Caraguatatuba e envia um e-mail formatado em HTML
+                    com as últimas publicações. Utiliza requests, parsel, jinja2 e smtplib para garantir a eficiência no processamento e envio das informações.
                 </p>
                 <hr class="border border-primary">
                 <h3 class="text-primary">Técnologias Usadas:</h3>
@@ -132,13 +132,44 @@
                         <li class="list-group-item"><i class="bi bi-check2-square text-success ms-0 me-2"></i>Python</li>
                         <li class="list-group-item"><i class="bi bi-check2-square text-success ms-0 me-2"></i>HTML</li>
                         <li class="list-group-item"><i class="bi bi-check2-square text-success ms-0 me-2"></i>CSS</li>
+                        <li class="list-group-item"><i class="bi bi-check2-square text-success ms-0 me-2"></i>Requests</li>
+                        <li class="list-group-item"><i class="bi bi-check2-square text-success ms-0 me-2"></i>Parsel</li>
+                        <li class="list-group-item"><i class="bi bi-check2-square text-success ms-0 me-2"></i>Jinja2</li>
+                        <li class="list-group-item"><i class="bi bi-check2-square text-success ms-0 me-2"></i>STMPLib</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="mt-auto mx-auto mb-5">
+            <a href="#projeto_tres" class="btn btn-outline-primary d-flex align-items-center gap-2">
+                <span>Projeto 3: Batida de Ponto</span>
+                <i class="bi bi-arrow-down-circle fs-5"></i>
+            </a>
+        </div>
+    </section>
+    <section id="projeto_tres" class="min-vh-100 container-fluid m-auto d-flex flex-column align-items-center justify-content-around">
+        <div class="m-auto d-flex h-100 justify-content-center align-items-center" style="width: 75%;">
+            <img src="./imgs/ponto.png" alt="" style="width: 25rem;">
+            <div class="text ms-5">
+                <h3 class="text-primary">Batida de Ponto</h3>
+                <p class="text-white">
+                    Desenvolvi um script em Python para automatizar o registro de ponto em um sistema web, utilizando Selenium para navegação e inserção de dados. O projeto conta com registro detalhado de logs e suporte a configurações dinâmicas via arquivo TOML, garantindo flexibilidade e praticidade no uso.
+                </p>
+                <hr class="border border-primary">
+                <h3 class="text-primary">Técnologias Usadas:</h3>
+                <p class="text-white">
+                    <ul class="list-group">
+                        <li class="list-group-item"><i class="bi bi-check2-square text-success ms-0 me-2"></i>Python</li>
+                        <li class="list-group-item"><i class="bi bi-check2-square text-success ms-0 me-2"></i>TOML</li>
+                        <li class="list-group-item"><i class="bi bi-check2-square text-success ms-0 me-2"></i>Selenium</li>
+                        <li class="list-group-item"><i class="bi bi-check2-square text-success ms-0 me-2"></i>Holidays</li>
                     </ul>
                 </p>
             </div>
         </div>
         <!-- <div class="mt-auto mx-auto mb-5">
             <a href="#projeto_dois" class="text-link d-flex flex-column">
-                <p class="m-0 p-0 text-decoration-none">Projeto 2: News</p>
+                <p class="m-0 p-0 text-decoration-none">Projeto 2: Batida de Ponto</p>
                 <p class="mx-auto">
                     <i class="bi bi-arrow-down-circle mx-auto w-100 fs-4"></i>
                 </p>
